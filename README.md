@@ -8,10 +8,10 @@ Task is implemented using function wrapper of void, one can simply encapsulate
 code and use.
 
 main.cpp contains an example with 4 task schedulings :
-F1 : start once after 5 seconds & run for 10 seconds  
-F2 : Start every 3 seconds and each time run for 1 sec 
-F3 : Start every 10 seconds and run for 1 second
-F4 : Start once after 10 seconds & run for 1 sec
+- F1 : start once after 5 seconds & run for 10 seconds  
+- F2 : Start every 3 seconds and each time run for 1 sec 
+- F3 : Start every 10 seconds and run for 1 second
+- F4 : Start once after 10 seconds & run for 1 sec
 
 They should display the result for 20 seconds, sample result :
 Scheduler started Fri Dec  4 18:29:54 2020
@@ -61,7 +61,10 @@ https://codereview.stackexchange.com/questions/21336/c-task-scheduler
 Compilation command: 
 
 g++ -std=c++17 main.cpp
+
+
 Using g++: g++ -v
+
 Using built-in specs.
 COLLECT_GCC=g++-6.3.0
 COLLECT_LTO_WRAPPER=/usr/local/gcc-6.3.0/libexec/gcc/x86_64-apple-darwin19.6.0/6.3.0/lto-wrapper
