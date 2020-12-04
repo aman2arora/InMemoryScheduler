@@ -1,4 +1,4 @@
-In Memory Scheduler :
+C++ In Memory Scheduler :
 
 Handles two kind of calls:
 - Direct Event : scheduleAt( std::chrono::time_point, std::function<void()> )
@@ -55,9 +55,11 @@ F2.2 Fri Dec  4 18:30:13 2020
 
 Credits :
 The implementation is a result of following : 
+
 https://codereview.stackexchange.com/questions/21336/c-task-scheduler
 
 Compilation command: 
+
 g++ -std=c++17 main.cpp
 Using g++: g++ -v
 Using built-in specs.
